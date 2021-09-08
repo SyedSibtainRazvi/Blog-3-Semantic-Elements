@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Semantic HTML Elements</title>
+</head>
+
+<body>
+    <nav class="primary-header">
+        <img src="Logo.png" width="120px" height="auto">
+        <div class="nav-links">
+            <ul>
+                <li><a href="https://sibtain.netlify.app/blog.html">&lt/Blogs&gt</a></li>
+                <li><a href="https://sibtain.netlify.app/">&lt/Portfolio&gt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <h1>HTML5 and How It Works?</h1>
+        <p>Well if you want to step into the web developer world, the first thing we start with is <b>HTML</b> which is
+            also
+            known as the <b>World Wide Web's</b> core markup language. HTML is also known as HyperText Markup Language
+            and was
+            launched in <b>1993</b> and it is still the standard markup language for the documents that we display in
+            our web
+            browsers.
+            And we can further go ahead and add <b>Cascading Style Sheets</b> "CSS" and as well as <b>JavaScript</b> to
+            make our web
+            pages more beautiful and interactive.</p>
+        <p>The HTML provides the basic foundation and structure of the web pages. Since all the web browsers, like
+            <b>Google Chrome, Firefox, Safari</b>, etc receives the HTML documents from different <b>web servers</b> and
+            our browsers
+            render all the information on our browser window.</p>
+        <p>All right, so let's see how this works. The <b>HTML documents</b> have small building blocks called HTML
+            elements,
+            like <b> &lthead&gt, &lttite&gt, &ltbody&gt,</b> etc.
+            These elements join together and form the document that will be later rendered. Almost all the elements of
+            HTML have an <b>opening tag</b> and a <b>closing tag</b> excluding a few like <b>&ltbr&gt, &lthr&gt</b>, etc
+        </p>
+
+        <h2>HTML5 Semantic vs Non-Semantic Elements!</h2>
+
+        <p>If we count the <b>number of tags</b> in HTML5, currently there are approximately <b>111 supported tags</b>
+            <em>(Reference Mozilla Developer Network)</em>.
+            And out of these, we have further two types of elements via, Semantic Elements
+            and Non-Semantic Elements.</p>
+
+        <p>As the name says, <b>sematic elements</b> simply describe elements that have a clear <b>meaning</b>. It helps
+            us make the
+            HTML document more <b>readable and meaningful</b> by allowing us to define the various sections of our web
+            page. On
+            the other hand, non-semantic elements do not define the meaning or content of the element. It makes it hard
+            to read and work.</p>
+
+        <p>Some of the good <b>examples</b> of semantic elements are &ltform&gt, &lttable&gt, &ltheader&gt,
+            &ltfooter&gt,
+            &ltarticle&gt, &ltaside&gt, etc. As it
+            has a meaning, we know a <b>&ltnav&gt</b> will have the <b>Navigation</b> and will be placed on the top.
+            Similarly, a
+            Footer
+            will have the links to contact and will be placed at the end of the webpage. And the simple examples of
+            non-semantic elements are &ltdiv&gt, &ltspan&gt and it does not define the type of content to be stored. It
+            can
+            contain a set of paragraphs or a couple of images.</p>
+
+        <h2>Example of Semantic HTML</h2>
+        <figure>
+            <img src="navsemantic.png">
+            <img src="nonsemantic.png">
+        </figure>
+        <p>In both the examples we created a <b>navigation bar</b>, however, if we look at the first image, we have used
+            a <b>nav</b>
+            tag which is a semantic element and we can simply read it. On the other hand, we have created the same
+            navbar but used a <b>div</b> tag which is a non-semantic element, and gave a <b>class = "nav"</b>. This is a
+            bad practice.
+            Similarly, we can create a footer using a footer tag or a div, although it will be good to follow semantics
+            and use a footer tag.
+        </p>
+        <h2>Some commonly used Semantic Elements</h2>
+        <p>&ltheader&gt - Defines a header of some particular section or document.</p>
+        <p>&ltfigure&gt - Defines content like, images, photos, etc.</p>
+        <p>&ltfigcaption&gt - Defines a caption for a figure element.</p>
+        <p>&ltsection&gt- Defines a section of a document.</p>
+        <p><a href="https://www.w3schools.com/tags/default.asp">Click Here for the detailed list of all the elements.</a></p> 
+    </section>
+
+    <footer class="primary-footer">
+        <div class="icon">
+            <a href="https://github.com/SyedSibtainRazvi"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/syed-sibtain-razvi-919669150/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/SyedSibtain1996"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
